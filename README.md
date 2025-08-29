@@ -9,7 +9,7 @@
 [![arXiv Paper](https://img.shields.io/badge/arXiv-Research%20Paper-red?style=for-the-badge&logo=arxiv)](https://arxiv.org)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--2520--2279-green?style=for-the-badge&logo=orcid)](https://orcid.org/0009-0005-2520-2279)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Research%20Phase-yellow?style=for-the-badge)](https://github.com/yashab-cyber/LEWIS)
+[![Status](https://img.shields.io/badge/Status-Research%20Phase-yellow?style=for-the-badge)](https://github.com/yashab-cyber/lewis-research-paper)
 
 ---
 
@@ -112,8 +112,8 @@ graph TB
 ### Quick Installation (Coming Soon)
 ```bash
 # Clone the repository
-git clone https://github.com/yashab-cyber/LEWIS.git
-cd LEWIS
+git clone https://github.com/yashab-cyber/lewis-research-paper.git
+cd lewis-research-paper
 
 # Install dependencies
 pip install -r requirements.txt
@@ -131,12 +131,19 @@ lewis start
 📁 LEWIS/
 ├── 📄 LEWIS_research_paper.pdf     # Complete research documentation
 ├── 📄 README.md                   # Project overview
+├── 📄 CHANGELOG.md                # Version history and updates
+├── 📄 CONTRIBUTING.md             # Contribution guidelines
+├── 📄 CODE_OF_CONDUCT.md          # Community standards
+├── 📄 SECURITY.md                 # Security policy
 ├── 📁 docs/                       # Detailed documentation
-│   ├── 📄 installation.md
-│   ├── 📄 user-guide.md
-│   └── 📄 api-reference.md
+│   ├── 📄 installation.md         # Installation guide
+│   ├── 📄 user-guide.md           # User guide
+│   └── 📄 api-reference.md        # API documentation
+├── 📁 .github/                    # GitHub templates
+│   ├── 📁 ISSUE_TEMPLATE/         # Issue templates
+│   └── 📄 pull_request_template.md # PR template
+├── 📁 examples/                   # Usage examples and tutorials
 ├── 📁 src/                        # Source code (Coming Soon)
-├── 📁 examples/                   # Usage examples
 └── 📁 tests/                      # Test suites
 ```
 
@@ -192,7 +199,7 @@ If you use or refer to this work in your research, please cite as:
   year={2024},
   publisher={GitHub},
   journal={GitHub Repository},
-  howpublished={\url{https://github.com/yashab-cyber/LEWIS}},
+  howpublished={\url{https://github.com/yashab-cyber/lewis-research-paper}},
   note={ORCID: 0009-0005-2520-2279}
 }
 ```
@@ -232,6 +239,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *Built with ❤️ for the cybersecurity community*
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yashab-cyber.LEWIS)
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yashab-cyber.lewis-research-paper)
 
 </div>

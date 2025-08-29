@@ -1,0 +1,124 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for LEWIS
+title: "[FEATURE] "
+labels: ["enhancement", "feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Please provide as much detail as possible.
+
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: Please confirm before submitting
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't been requested
+          required: true
+        - label: I have read the project documentation
+          required: true
+        - label: This feature aligns with LEWIS's cybersecurity and AI focus
+          required: true
+
+  - type: dropdown
+    attributes:
+      label: Feature Category
+      description: What category does this feature belong to?
+      options:
+        - AI/Machine Learning
+        - Security Scanning
+        - Penetration Testing
+        - Vulnerability Assessment
+        - Reporting
+        - User Interface
+        - API/Integration
+        - Research Tools
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Feature Summary
+      description: A clear and concise summary of the feature you'd like to see
+      placeholder: Brief description of the feature...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve?
+      placeholder: |
+        Is your feature request related to a problem? Please describe.
+        Example: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see implemented
+      placeholder: A clear and concise description of what you want to happen...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Use Cases
+      description: Describe specific use cases for this feature
+      placeholder: |
+        Who would use this feature and how?
+        - Security researchers could use this to...
+        - Penetration testers would benefit by...
+        - Academic researchers could apply this for...
+
+  - type: textarea
+    attributes:
+      label: Alternative Solutions
+      description: Describe alternatives you've considered
+      placeholder: Are there any alternative solutions or features you've considered?
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve workflow
+        - High - Critical for my use case
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Implementation Complexity
+      description: How complex do you think this feature would be to implement?
+      options:
+        - Low - Minor change or addition
+        - Medium - Moderate development effort
+        - High - Major feature requiring significant work
+        - Unknown - Not sure about complexity
+
+  - type: textarea
+    attributes:
+      label: Research Relevance
+      description: How would this feature advance cybersecurity research?
+      placeholder: |
+        If applicable, describe how this feature would contribute to:
+        - Academic research
+        - Industry applications
+        - Open source community
+        - Educational resources
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or examples about the feature request
+      placeholder: |
+        Any additional information, references, or examples that would help understand the feature:
+        - Links to similar implementations
+        - Academic papers or research
+        - Screenshots or mockups
+        - Code examples
