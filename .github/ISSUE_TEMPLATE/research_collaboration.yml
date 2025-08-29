@@ -1,0 +1,161 @@
+name: Research Collaboration
+description: Propose research collaboration or academic partnership
+title: "[RESEARCH] "
+labels: ["research", "collaboration", "academic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome researchers! We're excited about potential collaborations. Please provide details about your research interests and proposed collaboration.
+
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: Please confirm the following
+      options:
+        - label: I am affiliated with an academic institution or research organization
+          required: true
+        - label: I have reviewed the LEWIS research paper and documentation
+          required: true
+        - label: My research aligns with LEWIS's cybersecurity and AI focus
+          required: true
+
+  - type: dropdown
+    attributes:
+      label: Collaboration Type
+      description: What type of collaboration are you proposing?
+      options:
+        - Joint Research Project
+        - Data Sharing/Exchange
+        - Co-authorship on Papers
+        - Student Research Project
+        - Industry-Academic Partnership
+        - Conference Collaboration
+        - Grant Application Partnership
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Research Institution
+      description: Information about your research institution or organization
+      placeholder: |
+        - Institution/Organization name:
+        - Department:
+        - Your position/role:
+        - Website:
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Research Background
+      description: Brief overview of your research background and expertise
+      placeholder: |
+        Describe your relevant research background:
+        - Research areas and specializations
+        - Relevant publications
+        - Previous collaborations
+        - Technical expertise
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Research
+      description: Detailed description of the proposed research or collaboration
+      placeholder: |
+        Please describe:
+        - Research objectives and goals
+        - Methodology or approach
+        - Expected outcomes
+        - Timeline
+        - Resources available
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: LEWIS Integration
+      description: How does your research relate to or build upon LEWIS?
+      placeholder: |
+        Explain how your research:
+        - Extends LEWIS capabilities
+        - Uses LEWIS as a research platform
+        - Contributes to LEWIS development
+        - Benefits from LEWIS framework
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Mutual Benefits
+      description: What are the potential benefits for both parties?
+      placeholder: |
+        Describe potential benefits:
+        - For your research/institution
+        - For the LEWIS project
+        - For the broader research community
+        - Publication opportunities
+        - Grant opportunities
+
+  - type: textarea
+    attributes:
+      label: Resources and Support
+      description: What resources can you contribute to the collaboration?
+      placeholder: |
+        Resources you can provide:
+        - Research funding
+        - Student researchers
+        - Computing resources
+        - Data sets
+        - Domain expertise
+        - Laboratory facilities
+
+  - type: dropdown
+    attributes:
+      label: Collaboration Duration
+      description: What is the expected duration of this collaboration?
+      options:
+        - Short-term (< 6 months)
+        - Medium-term (6-12 months)
+        - Long-term (1-2 years)
+        - Ongoing partnership
+        - Project-specific
+
+  - type: textarea
+    attributes:
+      label: Publication Plans
+      description: Plans for academic publications or dissemination
+      placeholder: |
+        Please describe:
+        - Target conferences or journals
+        - Publication timeline
+        - Co-authorship arrangements
+        - Open source contributions
+        - Dataset sharing plans
+
+  - type: textarea
+    attributes:
+      label: Contact Information
+      description: How can we contact you for further discussion?
+      placeholder: |
+        - Email:
+        - ORCID (if available):
+        - LinkedIn:
+        - Preferred communication method:
+        - Time zone:
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any additional information about the proposed collaboration
+      placeholder: |
+        Any other relevant information:
+        - References or recommendations
+        - Previous collaboration examples
+        - Specific requirements or constraints
+        - Questions about LEWIS
